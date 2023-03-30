@@ -1,6 +1,10 @@
 micronaut:
   application:
     name: demo
+  http:
+    services:
+      covid:
+        url: 'https://api.covid19api.com'
   router:
     static-resources:
       swagger:
