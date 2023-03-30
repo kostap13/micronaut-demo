@@ -21,4 +21,8 @@ public class CacheService {
         countriesData.put(key,data);
     }
 
+    public void clear() {
+        countriesData.clear();
+    }
+
 }
